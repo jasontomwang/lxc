@@ -1,0 +1,4 @@
+lxc-ls --fancy
+lxc-create -n mycontrainers -t ubuntu
+lxc-start -n mycontrainers
+lxc-consoles -n mycontrainers
